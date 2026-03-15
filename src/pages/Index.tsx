@@ -1,13 +1,31 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import UsernameSection from "@/components/UsernameSection";
+import BioSection from "@/components/BioSection";
+import HighlightsSection from "@/components/HighlightsSection";
+import FeedPlanSection from "@/components/FeedPlanSection";
+import ReelsSection from "@/components/ReelsSection";
+import StrategySection from "@/components/StrategySection";
+import BrandVoiceSection from "@/components/BrandVoiceSection";
+import CTASection from "@/components/CTASection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="bg-background">
+      <HeroSection />
+      <UsernameSection />
+      <BioSection />
+      <HighlightsSection />
+      <FeedPlanSection />
+      <ReelsSection />
+      <StrategySection />
+      <BrandVoiceSection />
+      <CTASection />
+      <footer className="py-8 px-6 bg-foreground text-center">
+        <p className="font-serif text-sm italic text-primary-foreground/50">
+          Muse Lash Studio · Antalya
+        </p>
+      </footer>
+    </main>
   );
 };
 
