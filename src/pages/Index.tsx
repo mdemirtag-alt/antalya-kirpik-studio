@@ -1,30 +1,27 @@
-import HeroSection from "@/components/HeroSection";
-import UsernameSection from "@/components/UsernameSection";
-import BioSection from "@/components/BioSection";
-import HighlightsSection from "@/components/HighlightsSection";
-import FeedPlanSection from "@/components/FeedPlanSection";
-import ReelsSection from "@/components/ReelsSection";
-import StrategySection from "@/components/StrategySection";
-import BrandVoiceSection from "@/components/BrandVoiceSection";
-import CTASection from "@/components/CTASection";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import ServicesSection from "@/components/ServicesSection";
+import GallerySection from "@/components/GallerySection";
+import BeforeAfterSection from "@/components/BeforeAfterSection";
+import AboutSection from "@/components/AboutSection";
+import ReviewsSection from "@/components/ReviewsSection";
+import AppointmentSection from "@/components/AppointmentSection";
+import InstagramFeed from "@/components/InstagramFeed";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
     <main className="bg-background">
-      <HeroSection />
-      <UsernameSection />
-      <BioSection />
-      <HighlightsSection />
-      <FeedPlanSection />
-      <ReelsSection />
-      <StrategySection />
-      <BrandVoiceSection />
-      <CTASection />
-      <footer className="py-8 px-6 bg-foreground text-center">
-        <p className="font-serif text-sm italic text-primary-foreground/50">
-          Muse Lash Studio · Antalya
-        </p>
-      </footer>
+      <Navbar />
+      <Hero />
+      <ServicesSection />
+      <GallerySection />
+      <BeforeAfterSection />
+      <AboutSection />
+      <ReviewsSection />
+      <AppointmentSection />
+      <InstagramFeed />
+      <Footer />
     </main>
   );
 };
